@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-   "start:dev": "vite",
-   "start": "vite preview",
-   "build": "vite build"
+    "start:dev": "vite",
+    "start": "vite preview",
+    "build": "vite build"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
   }
 }
